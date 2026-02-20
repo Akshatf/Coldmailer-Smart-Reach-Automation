@@ -4,11 +4,11 @@ This project contains end-to-end (E2E) tests for the **Job Mail Generator** app 
 
 ### Tech stack
 
-- **Node.js** + **npm** for runtime and dependency management
+<!-- - **Node.js** + **npm** for runtime and dependency management -->
 - **Playwright Test** (`@playwright/test`) for browser automation and test runner
 - **Page Object Model** under `pages/` for reusable, maintainable selectors and actions
-- **ESLint** + **Prettier** for linting and consistent formatting
-- **GitHub Actions** workflow for CI (if this repo is pushed to GitHub)
+<!-- - **ESLint** + **Prettier** for linting and consistent formatting
+- **GitHub Actions** workflow for CI (if this repo is pushed to GitHub) -->
 
 ---
 
@@ -27,7 +27,7 @@ This project contains end-to-end (E2E) tests for the **Job Mail Generator** app 
 - `config/`
   - `testConfig.js` – centralized test configuration (e.g., `baseURL`)
 - `playwright.config.js` – Playwright Test configuration
-- `.github/workflows/playwright.yml` – CI workflow (for GitHub)
+<!-- - `.github/workflows/playwright.yml` – CI workflow (for GitHub) -->
 - `.eslintrc.cjs` / `.prettierrc` – linting and formatting config
 
 ---
@@ -132,7 +132,7 @@ ESLint is configured via `.eslintrc.cjs`, and Prettier via `.prettierrc`.
 
 ---
 
-### CI with GitHub Actions
+<!-- ### CI with GitHub Actions
 
 If you push this project to GitHub, the workflow at `.github/workflows/playwright.yml` will:
 
@@ -150,7 +150,7 @@ If you push this project to GitHub, the workflow at `.github/workflows/playwrigh
 
 The workflow sets `BASE_URL` to `https://cold-mailerr.vercel.app/` by default. You can change this in the workflow file to target another environment.
 
----
+--- -->
 
 ### Test behavior and stability
 
